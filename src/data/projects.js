@@ -38,4 +38,14 @@ export const projects = [
     // liveUrl: 'https://example.com',
     githubUrl: "https://github.com/abhinavsinghh/website-analyser",
   },
+  {
+    id: 4,
+    title: "AI Dataset Generator",
+    description:
+      "An AI-powered tool that generates synthetic datasets for training machine learning models, with support for various data formats and customization options.",
+    image: "AI-Dataset-Generator.png",
+    tech: ["Python", "Hugging Face", "PyTorch", "Gradio", "Docker", "Git", "Pandas"],
+    // liveUrl: 'https://example.com',
+    githubUrl: "https://github.com/abhinavsinghh/synthetic_dataset_generator",
+  },
 ];
