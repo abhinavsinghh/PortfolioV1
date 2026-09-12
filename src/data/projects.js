@@ -48,4 +48,26 @@ export const projects = [
     // liveUrl: 'https://example.com',
     githubUrl: "https://github.com/abhinavsinghh/synthetic_dataset_generator",
   },
+  {
+    id: 5,
+    title: "VSUM",
+    description:
+      "AI-powered YouTube video summarizer that extracts video transcripts and generates concise, structured study notes using Google Gemini.",
+    image: "VSUM.png",
+    tech: ["Python", "Streamlit", "Google Gemini API", "Youtube Transcript API", "Python-dotenv"],
+    // liveUrl: 'https://example.com',
+    githubUrl: "https://github.com/abhinavsinghh/VSUM",
+  },
+  {
+    id: 6,
+    title: "GridPlus",
+    description:
+      "Full-stack industrial energy monitoring platform for managing electrical meters, visualizing real-time analytics, and detecting abnormal readings with automated alerts and notifications",
+    image: "GridPlus.png",
+    tech: ["Node.js", "Express.js", "MongoDB", "Mongoose", "EJS", "Bootstrap", "JavaScript", "Passport.js", "Joi", "Chart.js", "Nodemailer"],
+    // liveUrl: 'https://example.com',
+    githubUrl: "https://github.com/abhinavsinghh/GridPlus",
+  },
+
+
 ];
