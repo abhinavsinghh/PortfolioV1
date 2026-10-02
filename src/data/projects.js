@@ -128,5 +128,3 @@ export const projects = [
     githubUrl: "https://github.com/abhinavsinghh/ai_agentic_agent",
   },
 ];
-
-];
