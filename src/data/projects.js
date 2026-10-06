@@ -18,26 +18,26 @@ export const projects = [
     // liveUrl: 'https://example.com',
     githubUrl: "https://github.com/abhinavsinghh/task_management_api",
   },
+  // {
+  //   id: 2,
+  //   title: "RAG Chatbot",
+  //   description:
+  //     "An AI-powered chatbot that retrieves relevant information from custom documents using Retrieval-Augmented Generation (RAG) to provide accurate, context-aware responses.",
+  //   image: "RAGChatbot.png",
+  //   tech: [
+  //     "Python",
+  //     "Streamlit",
+  //     "Langchain",
+  //     "Ollama",
+  //     "Hugging Face",
+  //     "BeautifulSoup",
+  //     "Git",
+  //   ],
+  //   // liveUrl: 'https://example.com',
+  //   githubUrl: "https://github.com/abhinavsinghh/RAG_Chatbot",
+  // },
   {
     id: 2,
-    title: "RAG Chatbot",
-    description:
-      "An AI-powered chatbot that retrieves relevant information from custom documents using Retrieval-Augmented Generation (RAG) to provide accurate, context-aware responses.",
-    image: "RAGChatbot.png",
-    tech: [
-      "Python",
-      "Streamlit",
-      "Langchain",
-      "Ollama",
-      "Hugging Face",
-      "BeautifulSoup",
-      "Git",
-    ],
-    // liveUrl: 'https://example.com',
-    githubUrl: "https://github.com/abhinavsinghh/RAG_Chatbot",
-  },
-  {
-    id: 3,
     title: "Website Analyser",
     description:
       "An AI-powered web analysis tool that crawls websites, extracts content, and generates insights, summaries, and recommendations using large language models.",
@@ -55,7 +55,7 @@ export const projects = [
     githubUrl: "https://github.com/abhinavsinghh/website-analyser",
   },
   {
-    id: 4,
+    id: 3,
     title: "AI Dataset Generator",
     description:
       "An AI-powered tool that generates synthetic datasets for training machine learning models, with support for various data formats and customization options.",
@@ -73,7 +73,7 @@ export const projects = [
     githubUrl: "https://github.com/abhinavsinghh/synthetic_dataset_generator",
   },
   {
-    id: 5,
+    id: 4,
     title: "VSUM",
     description:
       "AI-powered YouTube video summarizer that extracts video transcripts and generates concise, structured study notes using Google Gemini.",
@@ -89,7 +89,7 @@ export const projects = [
     githubUrl: "https://github.com/abhinavsinghh/VSUM",
   },
   {
-    id: 6,
+    id: 5,
     title: "GridPlus",
     description:
       "Full-stack industrial energy monitoring platform for managing electrical meters, visualizing real-time analytics, and detecting abnormal readings with automated alerts and notifications",
@@ -111,7 +111,7 @@ export const projects = [
     githubUrl: "https://github.com/abhinavsinghh/GridPlus",
   },
   {
-    id: 7,
+    id: 6,
     title: "AI Research Agent",
     description:
       "Built an autonomous, multi-step AI agent that plans research, performs web-based retrieval, evaluates findings, and generates structured reports using LangGraph and LLM tool calling.",
@@ -120,11 +120,52 @@ export const projects = [
       "Python",
       "LangGraph",
       "Langchain",
-      "Gemini API",
+      "LLM APIs",
       "BeautifulSoup",
       "Git"
     ],
     // liveUrl: 'https://example.com',
     githubUrl: "https://github.com/abhinavsinghh/ai_agentic_agent",
   },
+  {
+    id: 7,
+    title: "RAG Intelligence System",
+    description:
+      "Enterprise RAG system for querying internal documents using hybrid retrieval, embeddings, reranking, and LLMs to generate accurate, source-grounded answers.",
+    image: "RAGIntelligenceSystem.png",
+    tech: [
+      "Python",
+      "RAGs",
+      "Langchain",
+      "LLM APIs",
+      "Embeddings",
+      "Hybrid Search",
+      "ReRanking",
+      "Git"
+    ],
+    // liveUrl: 'https://example.com',
+    githubUrl: "https://github.com/abhinavsinghh/RAG_Intelligence_System",
+  },
+  {
+    id: 8,
+    title: "GitHub Issue Resolver",
+    description:
+      "AI coding agent that autonomously analyzes GitHub issues, navigates repositories, implements fixes, runs tests, and creates pull requests using LLMs and GitHub APIs.",
+    image: "GitHubIssueResolver.png",
+    tech: [
+      "Python",
+      "RAGs",
+      "Langgraph",
+      "LLM APIs",
+      "Toolcalling",
+      "Agentic AI",
+      "GitHub API",
+      "Git",
+      "Docker",
+      "FastAPI",
+      "Pytest",
+    ],
+    // liveUrl: 'https://example.com',
+    githubUrl: "https://github.com/abhinavsinghh/Github_Issue_Resolution",
+  }
 ];
